@@ -1,0 +1,66 @@
+/* BOX SIZING */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY */
+
+body {
+    font-family: sans-serif;
+}
+
+/* MAIN */
+
+html, body {
+    height: 100%;
+}
+
+main {
+    height: 90%;
+    padding: 6% 0;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+#search {
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 2%;
+    width: 45%;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2.5% 0;
+    width: 50%;
+}
+
+#search-buttons button {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 10px 16px;
+}
+
+/* HEADER AND FOOTER */
+
+header,
+footer {
+    /* border: 2px solid black; */
+    height: 5%;
+}
