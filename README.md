@@ -1,0 +1,1 @@
+A simple recreation of the Google homepage. Uses HTML and CSS.
