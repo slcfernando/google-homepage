@@ -12,6 +12,80 @@ body {
     font-family: sans-serif;
 }
 
+/* HEADER AND FOOTER */
+
+header,
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header {
+    height: 10%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+    height: 7.5%;
+}
+
+header a {
+    margin: 0 1%;
+}
+
+footer section {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    padding: 0 2%;
+}
+
+footer section a {
+    margin: 0 2.5%;
+}
+
+footer .left-align {
+    justify-content: flex-start;
+}
+
+footer .right-align {
+    justify-content: flex-end;
+}
+
+header a,
+footer a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+header a {
+    color: rgb(0, 0, 0, 0.87);
+}
+
+footer a {
+    color: #70757a;
+}
+
+header a:hover,
+footer a:hover {
+    color: rgb(0, 0, 0, 0.66);
+    text-decoration: underline;
+}
+
+#google-apps {
+    width: 24px;
+    height: 24px;
+}
+
+#profile-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
 /* MAIN */
 
 html, body {
@@ -19,8 +93,8 @@ html, body {
 }
 
 main {
-    height: 90%;
-    padding: 6% 0;
+    height: 82.5%;
+    padding: 5% 0;
 }
 
 #logo {
@@ -30,7 +104,7 @@ main {
 }
 
 #search {
-    border: 1px solid #dfe1e5;
+    border: 1px solid #d0d2d6;
     border-radius: 20px;
     display: block;
     height: 40px;
@@ -49,7 +123,7 @@ main {
 
 #search-buttons button {
     background-color: #f8f9fa;
-    border: none;
+    border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
     font-size: 14px;
@@ -57,10 +131,7 @@ main {
     padding: 10px 16px;
 }
 
-/* HEADER AND FOOTER */
-
-header,
-footer {
-    /* border: 2px solid black; */
-    height: 5%;
+#search-buttons button:hover {
+    border: 1px solid #d6d8da;
+    cursor: pointer;
 }
